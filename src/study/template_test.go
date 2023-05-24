@@ -50,3 +50,13 @@ func TestAnonymousFun(t *testing.T) {
 	fmt.Println(f())
 	fmt.Println(f())
 }
+
+func TestAppendFunc1(t *testing.T) {
+	//func append(slice []Type, elems ...Type) []Type
+	nums := []int{1, 2}
+	fmt.Println(nums)
+	nums = append(nums, 4)
+	fmt.Println(nums)
+	nums = append(nums, 5, 6, 7)
+	fmt.Println(nums)
+}
