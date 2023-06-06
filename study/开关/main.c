@@ -1,6 +1,11 @@
 #include <REGX52.H>
 
+typedef unsigned int u16; 
+typedef unsigned char u8;
 
+
+
+/*
 unsigned int i=0;
 void main(){
 	char arr[]={
@@ -24,3 +29,4 @@ void main(){
 		}
 	}
 }
+*/
